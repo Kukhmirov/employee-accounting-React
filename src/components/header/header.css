@@ -1,0 +1,62 @@
+.navbarItems
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    background: #0e2d55;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, .15);
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+.navbarItems .navbar-logo
+{
+    justify-self: start;
+    margin-left: 20px;
+    padding: 0;
+    color: #fff;
+}
+.navbarItems .menu-icon
+{
+    display: none;
+    color: #fff;
+}
+.navbarItems .nav-menu
+{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+    list-style: none;
+    text-align: center;
+    width: 50%;
+    justify-content: end;
+}
+
+.navbarItems .nav-menu .nav-links
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0 15px;
+    transition: .2s;
+}
+.navbarItems .nav-menu .nav-links:hover
+{
+    background: #537aad;
+    border-radius: 4px;
+    transition: all .3s ease-out;
+}
+.navbarItems .nav-menu .nav-links-mobail
+{
+    display: none;
+}
+
+@media (max-width: 990px)
+{
+    .navbarItems .menu-icon
+    {
+        display: block;
+    }
+}

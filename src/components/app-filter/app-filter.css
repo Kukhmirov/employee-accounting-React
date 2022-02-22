@@ -1,0 +1,11 @@
+.btn-group
+{
+    margin-top: 20px;
+}
+.btn-group .btn
+{
+    width: 150px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}

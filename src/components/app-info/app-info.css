@@ -1,0 +1,19 @@
+.app-info
+{
+    position: relative;
+    padding: 40px 25px;
+    background: #3d5a80;
+    width: 25%;
+    height: 87vh;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, .15);
+    color: #fff;
+    margin: auto 0;
+}
+.app-info h1
+{
+    font-size: 24px;
+}
+.app-info h2
+{
+    font-size: 18px;
+}

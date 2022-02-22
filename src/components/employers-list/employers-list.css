@@ -1,0 +1,12 @@
+.app-list
+{
+    box-shadow: 15px 15px 30px #00000026;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 70%;
+    margin-top: 30px;
+    overflow: auto;
+}

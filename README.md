@@ -6,4 +6,4 @@
 React<br/>
 TypeScript <br/>
 
-[Visual]:https://employee-accounting-react.vercel.app/
+[Visual](https://employee-accounting-react.vercel.app/)

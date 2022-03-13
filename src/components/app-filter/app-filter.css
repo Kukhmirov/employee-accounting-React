@@ -2,10 +2,31 @@
 {
     margin-top: 20px;
 }
-.btn-group .btn
+.btn
 {
     width: 150px;
     height: 30px;
-    margin-right: 20px;
+    border-radius: 8px;
     cursor: pointer;
+}
+.btn-info
+{
+    margin-right: 0;
+}
+.btn-group .btn
+{
+    margin-right: 20px;
+}
+
+@media (max-width: 620px)
+{
+    .btn-group .btn
+    {
+        width: 115px;
+        margin-right: 10px;
+    }
+    .btn-group .btn:last-child
+    {
+        width: 130px;
+    }
 }

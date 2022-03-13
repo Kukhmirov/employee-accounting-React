@@ -7,7 +7,7 @@
     background: #0e2d55;
     box-shadow: 15px 15px 30px rgba(0, 0, 0, .15);
     z-index: 10;
-    display: flex;
+    display: none;
     justify-content: space-around;
     align-items: center;
     font-size: 18px;
